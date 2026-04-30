@@ -1,9 +1,9 @@
-# Multi-Environment Infrastructure Management
+## Multi-Environment Infrastructure Management
 
 This repository manages dev, staging, and production environments using:
-- Terraform
-- Jenkins
-- AWS EKS
-- Helm
+- Terraform for infrastructure
+- Jenkins for CI/CD
+- AWS EKS for Kubernetes
+- Helm for application deployment
 
-Each environment is isolated and built using reusable modules.
+Each environment has isolated infrastructure using reusable Terraform modules.
